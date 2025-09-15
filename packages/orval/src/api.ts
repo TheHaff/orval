@@ -13,6 +13,7 @@ import {
   NormalizedInputOptions,
   NormalizedOutputOptions,
   resolveRef,
+  _filteredPaths,
 } from '@orval/core';
 import { generateMockImports } from '@orval/mock';
 import { PathItemObject } from 'openapi3-ts/oas30';
@@ -35,7 +36,7 @@ export const getApiBuilder = async ({
   context: ContextSpecs;
 }): Promise<GeneratorApiBuilder> => {
   const api = await asyncReduce(
-    Object.entries(context.specs[context.specKey].paths ?? {}),
+    _filteredPaths(context.specs[context.specKey].paths ?? {}, input.filters),
     async (acc, [pathRoute, verbs]: [string, PathItemObject]) => {
       const route = getRoute(pathRoute);
 

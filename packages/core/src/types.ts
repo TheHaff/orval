@@ -245,10 +245,13 @@ export type SwaggerParserOptions = Omit<SwaggerParser.Options, 'validate'> & {
   validate?: boolean;
 };
 
+export type HttpMethod = 'get' | 'post' | 'put' | 'delete' | 'patch' | 'head';
+
 export type InputFiltersOption = {
   mode?: 'include' | 'exclude';
   tags?: (string | RegExp)[];
   schemas?: (string | RegExp)[];
+  paths?: (string | RegExp)[] | Array<[string | RegExp, HttpMethod[]]>;
 };
 
 export type InputOptions = {
