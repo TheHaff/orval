@@ -1,5 +1,5 @@
 {
-  "name": "orval-fork",
+  "name": "orval",
   "description": "A swagger client generator for typescript",
   "version": "7.11.2",
   "license": "MIT",
@@ -80,15 +80,15 @@
     "typedoc-plugin-coverage": "^4.0.1",
     "typedoc-plugin-markdown": "^4.8.1",
     "typescript": "^5.6.3",
-    "@hafsteinningason/angular-fork": "7.11.2",
-    "@hafsteinningason/axios-fork": "7.11.2",
-    "@hafsteinningason/core-fork": "7.11.2",
-    "@hafsteinningason/fetch-fork": "7.11.2",
-    "@hafsteinningason/hono-fork": "7.11.2",
-    "@hafsteinningason/mcp-fork": "7.11.2",
-    "@hafsteinningason/mock-fork": "7.11.2",
-    "@hafsteinningason/query-fork": "7.11.2",
-    "@hafsteinningason/swr-fork": "7.11.2",
-    "@hafsteinningason/zod-fork": "7.11.2"
+    "@orval/angular": "7.11.2",
+    "@orval/axios": "7.11.2",
+    "@orval/core": "7.11.2",
+    "@orval/fetch": "7.11.2",
+    "@orval/hono": "7.11.2",
+    "@orval/mcp": "7.11.2",
+    "@orval/mock": "7.11.2",
+    "@orval/query": "7.11.2",
+    "@orval/swr": "7.11.2",
+    "@orval/zod": "7.11.2"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@hafsteinningason/axios-fork",
+  "name": "@orval/axios",
   "version": "7.11.2",
   "license": "MIT",
   "exports": {
@@ -19,7 +19,7 @@
     "nuke": "rimraf .turbo dist node_modules"
   },
   "dependencies": {
-    "@hafsteinningason/core-fork": "7.11.2"
+    "@orval/core": "7.11.2"
   },
   "devDependencies": {
     "rimraf": "^6.0.1"

@@ -1,5 +1,5 @@
 {
-  "name": "@hafsteinningason/mock-fork",
+  "name": "@orval/mock",
   "version": "7.11.2",
   "license": "MIT",
   "exports": {
@@ -20,8 +20,8 @@
     "nuke": "rimraf .turbo dist node_modules"
   },
   "dependencies": {
-    "openapi3-ts": "4.5.0",
-    "@hafsteinningason/core-fork": "7.11.2"
+    "@orval/core": "7.11.2",
+    "openapi3-ts": "4.5.0"
   },
   "devDependencies": {
     "rimraf": "^6.0.1",
