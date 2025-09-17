@@ -166,7 +166,7 @@ module.exports = {
         paths: [
           ['/pets', ['get', 'post']],
           ['/pets/{petId}', ['get', 'put']],
-          [/health/, ['get']]
+          [/health/, ['get']],
         ],
       },
     },
